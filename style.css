@@ -12,4 +12,15 @@ header{
     padding: 20px;
     text-align: center;
 }
-
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 5px;
+}
+.container>div{
+    background-color: bisque;
+    padding: 10px;
+}
+.container>div:hover{
+    background-color: blanchedalmond;
+}
