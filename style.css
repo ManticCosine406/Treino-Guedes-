@@ -23,4 +23,17 @@ table{
 th:hover{
     background-color: bisque;
 }
-
+input{
+    width: 200px;
+    padding: 20px;
+}
+ol> li:nth-child(2n){
+    background-color: bisque;
+    width: 70px;
+    padding: 10px;
+}
+ol> li:nth-child(odd){
+    background-color: cadetblue;
+    width: 70px;
+    padding: 10px;
+}
