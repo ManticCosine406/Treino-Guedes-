@@ -1,8 +1,16 @@
 footer{
     background-color: bisque;
+    position: fixed;
+    bottom: 0;
+    padding: 30px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
 }
 header{
     background-color: bisque;
+    padding: 20px;
+    text-align: center;
 }
 td:hover{
     transition: 0.7s;
@@ -15,3 +23,4 @@ table{
 th:hover{
     background-color: bisque;
 }
+
