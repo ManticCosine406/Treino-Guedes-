@@ -12,7 +12,31 @@ header{
     padding: 20px;
     text-align: center;
 }
-.container{
+td:hover{
+    transition: 0.7s;
+    background-color: bisque;
+
+}
+table{
+    background-color: rgb(0, 0, 0);
+}
+th:hover{
+    background-color: bisque;
+}
+input{
+    width: 200px;
+    padding: 20px;
+}
+ol> li:nth-child(2n){
+    background-color: bisque;
+    width: 70px;
+    padding: 10px;
+}
+ol> li:nth-child(odd){
+    background-color: cadetblue;
+    width: 70px;
+    padding: 10px;
+}.container{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     gap: 5px;
